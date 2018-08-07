@@ -5,7 +5,7 @@ Prorgammers level1
 
 def solution(s):
       
-    if len(s) == 4:
+    if len(s) == 4 or 6:
         for i in s:
             try:
                 float(s)
