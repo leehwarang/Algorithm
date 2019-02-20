@@ -16,10 +16,18 @@ def show_result(strike, ball, nothing):
 def compare(computer, user):
     strike, ball, nothing = 0, 0, 0
 
-    for i in range(len(user)):
-        print(i, user[i])
-        if user[i] in computer and i == computer.find(user[i]):
-            computer = computer.replace(computer[i], '0', 1)
+    # for i in range(len(user)):
+    #     print(i, user[i])
+    #     if user[i] in computer and i == computer.find(user[i]):
+    #         computer = computer.replace(computer[i], '0', 1)
+    #         strike += 1
+    #     elif user[i] in computer:
+    #         ball += 1
+    #     else:
+    #         nothing += 1
+
+    for i in range(3):
+        if user[i] == computer[i]:
             strike += 1
         elif user[i] in computer:
             ball += 1
