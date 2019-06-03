@@ -1,0 +1,6 @@
+# https://www.acmicpc.net/problem/10824
+
+arr = input().split(" ")
+a = arr[0] + arr[1]
+b = arr[2] + arr[3]
+print(int(a) + int(b))
